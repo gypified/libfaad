@@ -98,6 +98,7 @@
         # platform and arch-specific headers
         'config/<(OS)/<(target_arch)',
         'include',
+        'libfaad',
       ],
       'direct_dependent_settings': {
         'include_dirs': [
