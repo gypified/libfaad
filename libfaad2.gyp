@@ -115,5 +115,12 @@
       'dependencies': [ 'faad2' ],
       'sources': [ 'test.c' ]
     },
+
+    {
+      'target_name': 'decode_example',
+      'type': 'executable',
+      'dependencies': [ 'faad2' ],
+      'sources': [ 'decode_example.c' ]
+    },
   ]
 }
