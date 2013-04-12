@@ -32,7 +32,7 @@ int main () {
   input_size = fread(input, 1, sizeof input, stdin);
   fprintf(stderr, "read %d bytes\n", (int)input_size);
 
-  // Initialise the library using one of the initialization functions
+  // Initialize the library using one of the initialization functions
   int done = 0;
   unsigned long samplerate;
   unsigned char channels;
